@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #eaf3fb;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0b1f3a;
+	line-height: 1.6;
+}
+
+.site-header {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+	background-color: #0b1f3a;
+	padding: 12px 25px;
+}
+
+
+
+.logo a {
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.logo i {
+	margin-right: 8px;
+}
+
+.logo img{
+	height:35px;
+	width:auto;
+	display:block;
+}
+
+.sitenav {
+	display: flex;
+	justify-content: flex-end;
+	gap: 25px;
+}
+
+.sitenav a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.sitenav a:hover {
+	text-decoration: underline;
+}
+
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 40px;
+	background-color: #ffffff;
+}
+.gallery img {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 6px;
+	margin: 0;
+}
+
+.logo img{
+	height:40px;
+	width:auto;
+}
+
+.lead-display{
+	width: 900px;
+	height: 675px;
+	background:url("twp images/why-are-there-not-more-outdoor-spaces-in-airports-v0-v37hrjfmyo1g1.jpg");
+	position: relative;
+}
+
+.lead-display h1{
+	background: white;
+	font-size:3em;
+	width: 100%;
+	padding: 1em 0;
+	margin: 0;
+	position: absolute;
+	bottom: 76px;
+	left: 0px;
+}
+
+.lead-display-demo{
+	width: 900px;
+	height: 675px;
+	background-image:url("twp images/why-are-there-not-more-outdoor-spaces-in-airports-v0-v37hrjfmyo1g1.jpg");
+	margin: 0 15px;
+	position: relative;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.backtotop a{
+	color:#3b78b7;
+	font-size:14px;
+}
+
+.backtotop a:hover{
+	color:#42007E;
+}
+
+section{
+	margin-bottom:40px;
+}
+
+h1 {
+	text-align: center;
+	color: #0b1f3a;
+	margin-bottom: 10px;
+}
+
+h1 span {
+	display:block;
+	font-size:18px;
+	font-weight:normal;
+	color:#3b78b7;
+	margin-top:5px;
+}
+
+h2 {
+	color: #0b1f3a;
+	border-bottom: 2px solid #c9def2;
+	padding-bottom: 5px;
+	margin-top: 40px;
+}
+
+.wrapper nav {
+	text-align: center;
+	background-color: #c9def2;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+nav a {
+	color: #0b1f3a;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0 15px;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+p {
+	margin-bottom: 18px;
+}
+
+a {
+	color: #3b78b7;
+	text-decoration: none;
+}
+td i {
+	font-size: 18px;
+	text-align: center;
+	display: block;
+}
+
+a:hover {
+	color: #42007E;
+	text-decoration: underline;
+}
+
+img {
+	display: block;
+	margin: 25px auto;
+	border-radius: 6px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 30px;
+	font-size: 14px;
+	text-align:left;
+}
+
+th, td {
+	border: 1px solid #0b1f3a;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: #c9def2;
+}
+
+tr:nth-child(even) {
+	background-color: #f4f9fd;
+}
+
+.backtotop {
+	display: block;
+	text-align: right;
+	margin-top: 20px;
+	font-size: 14px;
+}
+
