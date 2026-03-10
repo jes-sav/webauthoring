@@ -11,11 +11,13 @@ body {
 
 .site-header {
 	display: grid;
-	grid-template-columns: 1fr 2fr;
+	grid-template-columns: auto 1fr;
 	align-items: center;
 	background-color: #0b1f3a;
-	padding: 20px 40px;
+	padding: 12px 25px;
 }
+
+
 
 .logo a {
 	text-decoration: none;
@@ -26,6 +28,12 @@ body {
 
 .logo i {
 	margin-right: 8px;
+}
+
+.logo img{
+	height:35px;
+	width:auto;
+	display:block;
 }
 
 .sitenav {
@@ -58,6 +66,37 @@ body {
 	margin: 0;
 }
 
+.logo img{
+	height:40px;
+	width:auto;
+}
+
+.lead-display{
+	width: 900px;
+	height: 675px;
+	background:url("twp images/why-are-there-not-more-outdoor-spaces-in-airports-v0-v37hrjfmyo1g1.jpg");
+	position: relative;
+}
+
+.lead-display h1{
+	background: white;
+	font-size:3em;
+	width: 100%;
+	padding: 1em 0;
+	margin: 0;
+	position: absolute;
+	bottom: 76px;
+	left: 0px;
+}
+
+.lead-display-demo{
+	width: 900px;
+	height: 675px;
+	background-image:url("twp images/why-are-there-not-more-outdoor-spaces-in-airports-v0-v37hrjfmyo1g1.jpg");
+	margin: 0 15px;
+	position: relative;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -65,10 +104,31 @@ body {
   margin-top: 20px;
 }
 
+.backtotop a{
+	color:#3b78b7;
+	font-size:14px;
+}
+
+.backtotop a:hover{
+	color:#42007E;
+}
+
+section{
+	margin-bottom:40px;
+}
+
 h1 {
 	text-align: center;
 	color: #0b1f3a;
 	margin-bottom: 10px;
+}
+
+h1 span {
+	display:block;
+	font-size:18px;
+	font-weight:normal;
+	color:#3b78b7;
+	margin-top:5px;
 }
 
 h2 {
@@ -102,6 +162,7 @@ p {
 
 a {
 	color: #3b78b7;
+	text-decoration: none;
 }
 td i {
 	font-size: 18px;
@@ -110,7 +171,8 @@ td i {
 }
 
 a:hover {
-	color: #1f4f82;
+	color: #42007E;
+	text-decoration: underline;
 }
 
 img {
@@ -124,6 +186,7 @@ table {
 	border-collapse: collapse;
 	margin-top: 30px;
 	font-size: 14px;
+	text-align:left;
 }
 
 th, td {
@@ -147,6 +210,3 @@ tr:nth-child(even) {
 	font-size: 14px;
 }
 
-#sec4 {
-	margin-bottom: 60px;
-}
