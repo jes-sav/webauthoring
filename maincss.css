@@ -80,31 +80,7 @@ body {
 	width:auto;
 }
 
-.lead-display{
-	width: 900px;
-	height: 675px;
-	background:url("twp images/why-are-there-not-more-outdoor-spaces-in-airports-v0-v37hrjfmyo1g1.jpg");
-	position: relative;
-}
 
-.lead-display h1{
-	background: white;
-	font-size:3em;
-	width: 100%;
-	padding: 1em 0;
-	margin: 0;
-	position: absolute;
-	bottom: 76px;
-	left: 0px;
-}
-
-.lead-display-demo{
-	width: 900px;
-	height: 675px;
-	background-image:url("twp images/why-are-there-not-more-outdoor-spaces-in-airports-v0-v37hrjfmyo1g1.jpg");
-	margin: 0 15px;
-	position: relative;
-}
 
 .gallery {
   display: grid;
