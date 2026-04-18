@@ -19,6 +19,47 @@ body {
 
 
 
+.article-grid {
+	display: grid;
+	gap: 0.5em 0.5em;
+	grid-template-columns: repeat(6,1fr);
+	grid-template-rows: repeat(4,auto);
+
+}
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;      /* forces same height */
+    object-fit: cover;  /* prevents stretching */
+}
+
+.logo img {
+    width: 40px;   /* adjust size here */
+    height: auto;
+    margin-right: 10px;
+}
+
+
+
 .logo a {
 	text-decoration: none;
 	color: white;
