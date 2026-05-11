@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Map Page</title>
+<link rel="stylesheet" href="maincss.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+    <div class="site-header">
+        <div class="logo">
+            <a href="HomePage.html" class="logo">
+    <img src="images/logo.png" alt="Guide to Gazing logo">
+    <span>Guide to Gazing</span>
+</a>
+        </div>
+        <nav class="sitenav">
+            <a href="PictorialPage.html">Pictorial</a>
+            <a href="ReviewPage.html">Reviews</a>
+            <a href="MapPage.html">Map</a>
+            <a href="FeaturePage.html">Features</a>
+            <a href="AboutPage.html">About</a>
+        </nav>
+    </div>
+</header>
+
+<div class="wrapper">
+<h1>Interactive Sky Map</h1>
+
+<div class="worldmap">
+
+    <div class="marker planet" id="moon">
+        <i class="fa-regular fa-moon"></i>
+        <div class="popup">
+            <h3>Moon</h3>
+            <p>Earth's natural satellite</p>
+            <a href="#moon-profile">View Profile</a>
+        </div>
+    </div>
+
+    <div class="marker planet" id="venus">
+        <i class="fa-solid fa-circle"></i>
+        <div class="popup">
+            <h3>Venus</h3>
+            <p>Bright evening/morning star</p>
+            <a href="#venus-profile">View Profile</a>
+        </div>
+    </div>
+
+    <div class="marker planet" id="mars">
+        <i class="fa-solid fa-circle"></i>
+        <div class="popup">
+            <h3>Mars</h3>
+            <p>Reddish planet visible at night</p>
+            <a href="#mars-profile">View Profile</a>
+        </div>
+    </div>
+
+    <div class="marker constellation" id="orion">
+        <i class="fa-solid fa-star"></i>
+        <div class="popup">
+            <h3>Orion</h3>
+            <p>Easy-to-spot winter constellation</p>
+            <a href="#orion-profile">View Profile</a>
+        </div>
+    </div>
+
+    <div class="marker constellation" id="bigdipper">
+        <i class="fa-solid fa-star"></i>
+        <div class="popup">
+            <h3>Big Dipper</h3>
+            <p>Part of Ursa Major</p>
+            <a href="#bigdipper-profile">View Profile</a>
+        </div>
+    </div>
+
+    <div class="marker constellation" id="gemini">
+        <i class="fa-solid fa-star"></i>
+        <div class="popup">
+            <h3>Gemini</h3>
+            <p>The twins constellation</p>
+            <a href="#gemini-profile">View Profile</a>
+        </div>
+    </div>
+
+    <div class="marker constellation" id="cassiopeia">
+        <i class="fa-solid fa-star"></i>
+        <div class="popup">
+            <h3>Cassiopeia</h3>
+            <p>W-shaped constellation</p>
+            <a href="#cassiopeia-profile">View Profile</a>
+        </div>
+    </div>
+
+</div>
+
+<div class="legend">
+    <h2>Map Legend</h2>
+    <p><i class="fa-regular fa-moon"></i> Moon</p>
+    <p><i class="fa-solid fa-circle"></i> Planet</p>
+    <p><i class="fa-solid fa-star"></i> Constellation</p>
+</div>
+	
+
+	
+<div class="profile" id="mars-profile">
+    <h2>Mars</h2>
+    <img src="images/mars.JPG" alt="Mars">
+
+    <p>Red planet visible to the naked eye from Earth.</p>
+
+    <p>Best viewing: Late evening to night</p>
+
+    <p>Visibility rating:
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+    </p>
+</div>
+<div class="profile" id="venus-profile">
+    <h2>Venus</h2>
+    <img src="images/venus.jpg" alt="Venus">
+
+    <p>
+        Venus is the brightest planet visible from Earth and is often called the
+        “Morning Star” or “Evening Star” depending on when it appears in the sky.
+    </p>
+
+ 
+
+    <p>Best viewing: Sunrise or sunset (low on the horizon)</p>
+
+    <p>Visibility rating:
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+    </p>
+</div>
+	
+<div class="profile" id="moon-profile">
+    <h2>Moon</h2>
+    <img src="images/moon.jpg" alt="Moon">
+
+    <p>Earth’s only natural satellite and the brightest object in the night sky.</p>
+
+    <p>Best viewing: Any clear night</p>
+
+    <p>Visibility rating:
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+    </p>
+	<div class="profile" id="bigdipper-profile">
+    <h2>Big Dipper</h2>
+    <img src="images/dipper.jpg" alt="Big Dipper">
+    <p>A famous asterism used to locate the North Star.</p>
+    <p>Best viewing: Spring</p>
+    <p>Visibility:
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+    </p>
+</div>
+
+<div class="profile" id="gemini-profile">
+    <h2>Gemini</h2>
+    <img src="images/gemini.jpg" alt="Gemini">
+    <p>Represents the twins Castor and Pollux.</p>
+    <p>Best viewing: Winter</p>
+    <p>Visibility:
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+    </p>
+</div>
+
+<div class="profile" id="cassiopeia-profile">
+    <h2>Cassiopeia</h2>
+    <img src="images/cassiopeia.jpeg" alt="Cassiopeia">
+    <p>A distinctive W-shaped constellation visible year-round.</p>
+    <p>Best viewing: Fall</p>
+    <p>Visibility:
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+    </p>
+</div>
+</div>
+	<div class="profile" id="orion-profile">
+    <h2>Orion</h2>
+    <img src="images/orion.jpg" alt="Orion">
+    <p>One of the easiest constellations to recognize, featuring Orion’s Belt.</p>
+    <p>Best viewing: Winter</p>
+    <p>Visibility:
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+    </p>
+</div>
+<div class="legend">
+    <h2>Rating Legend</h2>
+    <p><i class="fa-solid fa-star"></i> = Visibility level (more stars = easier to see)</p>
+</div>
+<section>
+<h2>Image Credits</h2>
+
+	<p>Map background: “Stars in the sky during night time,” Pexels, https://www.pexels.com/photo/stars-in-the-sky-during-night-time-7665098/</p>
+
+<p>Mars image: Yahoo News, “Trippy timelapse shows Curiosity’s mission on Mars,”
+https://finance.yahoo.com/news/trippy-timelapse-curiositys-mission-mars-212728835.html</p>
+
+	
+<p>Venus image: Smartphone Astrophotography Facebook Group, https://www.facebook.com/groups/smartphoneastro/posts/733235135935878/</p>
+</section>
+</div>
+<footer>
+    <p>&copy; 2026 Jessica Savonije. All rights reserved.</p>
+</footer>
+</body>
+</html>
